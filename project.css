@@ -1,0 +1,218 @@
+*{  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100%;
+    height:80px;
+    background-color: black;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    display: flex;
+}
+
+.navbar .menu a {
+    margin-left: 15px;
+}
+
+.navbar .login {
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar .login:hover {
+    background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar .menu {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar .menu a {
+        width: 100%;
+        text-align: left;
+        margin: 5px 0;
+    }
+}
+.banner-section{
+ 
+    width:100%;
+    height: 320px;
+
+}
+.category-section{
+    
+    width: 100%;
+    height: 180px;
+
+}
+.category-section span{
+    position: absolute;
+    top: 560px;
+}
+.category-section ul li{
+    list-style: none;
+    display: inline-flex;
+    width:100px;
+    height:100px;
+    justify-content:last baseline;
+    align-items:first baseline;
+    margin:30px;
+    border: 2px double black;
+
+}
+
+
+
+.category-section li:hover{
+    transform:scale(1.3);
+}
+.category-section ul li img{
+    width: 100%;
+}
+.arrival-section{
+
+    width:100%;
+    height: 70px;}
+.arrival-section li:hover{
+    transform: scale(0.9,1);
+}
+
+.arrival-section ul li{
+
+display: inline-flex;
+width:230px;
+height:360px;
+margin-left:90px
+    }
+.sub-section ul li img{
+    width:100%;
+    height:300px;
+    margin-top: 10px;
+}
+.sub-section{
+    border: 1px solid black;
+    
+}
+.sub-section ul{
+    position:relative}
+.sub-section span{
+    position:absolute;
+    top:330px;
+    font-weight: bold;
+    padding-left: 80px;
+    
+}
+.banner-2{
+    position: relative;
+    top: 300px;
+}
+.discount-section{
+    position: relative;
+    top:300px;
+    padding-left:80px;
+    padding-right:30px;
+    
+}
+.discount-section img{
+   
+    width:300px;
+    height: 300px;
+}
+
+footer {
+    top:300px;
+    position: relative;
+    background-color: #403d3e;
+    color: #fff;
+    padding: 40px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px 0;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.footer-section a img {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    border-top: 1px solid #555;
+    padding-top: 20px;
+}
+
+.footer-section p:hover {
+    color: #40479c;
+}
+
+.footer-section a img:hover {
+    opacity: 0.8;
+}
